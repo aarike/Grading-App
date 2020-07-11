@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GradingApp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>Grading System</h1>
+        </div>
+        <div class="course">
+            <p>
+                <input type="text" class="text-line" id="math" placeholder="Mathematics">
+            </p>
+            <p>
+                <input type="text" class="text-line"id="eng" placeholder="English language">
+            </p>
+            <p>
+                <input type="text" class="text-line" id="phy" placeholder="Physics"> 
+            </p>
+            <p>
+                <input type="text" class="text-line" id="chem" placeholder="Chemistry">
+            </p>
+        </div>
+        <div>
+            <p>
+                <input type="button" class="btn" value="Grade" onclick="calcy()">
+            </p>
+        </div>
+        <div>
+            <p id="data"></p>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
