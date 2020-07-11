@@ -24,11 +24,12 @@ h1, #data {
 }
 
 .text-line {
-    background-color: transparent;
+    background-color: #333333;
     color: #eeeeee;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
+    padding: 5px 0;
 }
 
 
@@ -39,9 +40,10 @@ h1, #data {
     border-radius: 7px;
     box-shadow: 0 0 10px 2px;
     font-size: larger;
+    padding: 5px 8px;
 }
 
 ::placeholder {
-    font-size: large;
+    font-size: medium;
     font-weight: 700;
 }
